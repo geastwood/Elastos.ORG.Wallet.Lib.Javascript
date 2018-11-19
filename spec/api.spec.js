@@ -1,5 +1,5 @@
 const { getSeedFromMnemonic } = require('../src/Mnemonic')
-const { getAddress, getDid, getMultiSign } = require('../src/Address')
+const { getMultiSignAddress, getAddress, getDid, getMultiSign } = require('../src/Address')
 const {
     getMasterPublicKey,
     getSinglePrivateKey,
