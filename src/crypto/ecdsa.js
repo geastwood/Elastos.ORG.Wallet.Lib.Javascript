@@ -226,7 +226,7 @@ ECDSA.prototype._findSignature = function(d, e) {
     } while (r.cmp(BN.Zero) <= 0 || s.cmp(BN.Zero) <= 0)
 
     s = ECDSA.toLowS(s)
-    console.log(s, r)
+    console.log('findSigniture', s, r)
     return {
         s: s,
         r: r,

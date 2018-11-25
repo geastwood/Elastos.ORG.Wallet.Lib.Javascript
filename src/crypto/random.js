@@ -27,3 +27,5 @@ Random.getRandomBufferBrowser = function(size) {
 
     return buf
 }
+
+module.exports = Random
